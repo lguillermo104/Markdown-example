@@ -1,19 +1,9 @@
 # Markdown-example
 
-# CONSTRUIR LA IMAGEN DESDE EL DOCKERFILE
-    docker build -t pern-stack-image .
-
-# CORRER EL CONTENEDOR.
-### en windows %cd%  se refiere a el directorio actual en command prompt.
-    docker run -v %cd%:/app:ro -p 3000:3000 -d --name pern-stack-container pern-stack-image
-### en windows ${pwd} se refiere al directorio  actual en el powershell.
-    docker run -v ${pwd}:/app:ro -p 3000:3000 -d --name pern-stack-container pern-stack-image
-
-# CORRER LA APLICACION DOCKER COMPOSE EN MODO DE DESARROLLO.
-    docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d
-
-# CORRER LA APLICACION CON DOCKER COMPOSE EN MODO DE PRODUCCION.
-    docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+# Titulo 1
+## Titulo 2
+### Titulo 3
+#### Titulo 4
 
 
 esto es un testo en *italic*
