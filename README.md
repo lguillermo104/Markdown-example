@@ -113,12 +113,12 @@ print ("hello world")
 <!-- Github markdown -->
 <!-- Lista to do -->
 
-*[x] task1
+* [x] task1
 
-*[ ] task2
+* [ ] task2
 
-*[ ] task3
+* [ ] task3
 
-*[x] task4
+* [x] task4
 
 @lguillermo104 :smiley:
