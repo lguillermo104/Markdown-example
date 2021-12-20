@@ -115,9 +115,9 @@ print ("hello world")
 
 *[x] task1
 
-*[] task2
+*[ ] task2
 
-*[] task3
+*[ ] task3
 
 *[x] task4
 
