@@ -39,7 +39,7 @@ esto es un exto en  ~~tachado~~
 	2. apple 2
 2. orange
 3. etc
-
+*
 <!-- Enlace a sitio web -->
 [faztweb.com](http://faztweb.com)
 
@@ -58,7 +58,7 @@ ___
 
 <!-- Crear bloque de codigo -->
 
-```
+```*
 const { Pool } = require('pg');
 
     const pool = new Pool({
@@ -112,7 +112,11 @@ print ("hello world")
 
 <!-- Github markdown -->
 <!-- Lista to do -->
+
 *[x] task1
+
 *[] task2
+
 *[] task3
+
 *[x] task4
